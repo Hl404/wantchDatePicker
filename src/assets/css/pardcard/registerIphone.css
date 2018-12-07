@@ -1,0 +1,112 @@
+
+
+
+
+.register-content{
+	padding-bottom: 50px;
+}
+
+.borderTop{
+	margin-top: 10px;
+}
+
+.register-content-header {
+	padding: 13px;
+	font-size: 18px;
+	color: #555555;
+}
+.register-from-item {
+	border-radius: 5px;
+	position: relative;
+
+}
+.register-from-item .mint-cell-wrapper {
+	background-image: none;
+}
+
+
+.register-from-item .mint-cell-wrapper  .mint-cell-text{
+	color: #555;
+	font-size: 15px;
+}
+
+.register-from-item .mint-cell-wrapper  .mint-cell-text img{
+	width: 25px;
+	height: 25px;
+}
+
+.register-from{
+	padding:  0 15px;
+}
+.register-from a {
+	text-decoration: none;
+}
+
+.register-from-item .mint-cell{
+	background-image: none;
+}
+
+.register-from .mint-cell-wrapper {
+	padding-left: 0;
+	font-size: 15px;
+}
+
+.register-from .mint-cell-wrapper .mint-cell-title {
+	width: 80px;
+	text-align: left;
+	padding-left: 15px;
+}
+
+.register-from .mint-cell-wrapper .mint-cell-value {
+	font-size: 12px;
+	color: #000000;
+	margin-left: 15px;
+}
+
+
+
+.register-from .mint-cell-wrapper .mint-cell-value .mint-field-core {
+	background: #FFFFFF;
+	color: #000000;
+}
+
+.register-buttonCont {
+	width: 100%;
+	margin-top: 30px;
+
+}
+
+
+.register-buttonCont .mint-button--normal {
+	width: 100%;
+	background: #df443b;
+	color: #FFFFFF;
+	height: 48px;
+	line-height: 48px;
+}
+
+
+.register-from-item .yzm {
+	display: block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	border: none;
+	background: #df443b;
+	color: #FFFFFF;
+	border-radius: 3px;
+	position: absolute;
+	right: 10px;
+	top: 6px;
+	font-size: 14px;
+}
+
+.register-buttonCont .status {
+	text-align: left;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.register-buttonCont .status span {
+	color: #f19e38;
+}

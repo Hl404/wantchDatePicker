@@ -1,0 +1,130 @@
+
+.marTop{
+	margin-top: 10px;
+}
+
+.header-bg{
+	background: #d13f3f;
+	padding: 20px;
+}
+
+
+.header-Img{
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	margin: auto;
+	background: #FFFFFF;
+}
+
+.header-Img img{
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	margin: auto;
+	background: #FFFFFF;
+}
+
+.header-name{
+	margin-top: 10px;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.wapper-list-item{
+	padding: 9px 15px;
+	background: #FFFFFF url(../../img/jinbi@2x.png)  no-repeat center ;
+	background-size: 26px 22px;
+	background-position-x: 15px;
+	text-align: left;
+	overflow: hidden;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.wapper-list .mint-cell .mint-cell-wrapper{
+	background-image: none;
+}
+
+.wapper-list-item .lmazamox{
+	float: left;
+	margin-left: 40px;
+	font-size: 16px;
+	color: #d73f3f;
+	line-height: 30px;
+	height: 30px;
+}
+
+.lmazamoxBtn {
+	display: block;
+	float: right;
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	background: #d73f3f;
+	color: #FFFFFF;
+	font-size: 14px;
+	border-radius: 3px;
+	text-align: center;
+}
+
+
+.indexicon {
+	display: block;
+	width: 29px;
+	height: 29px;
+	background: url(../../img/jilu@2x.png) no-repeat center ;
+	background-size: 29px 29px;
+	float: left;
+	margin-left: 5px;
+}
+.indexicon1 {
+	display: block;
+	width: 29px;
+	height: 29px;
+	background: url(../../img/duihuanjilu@2x.png) no-repeat center ;
+	background-size: 29px 29px;
+	float: left;
+	margin-left: 5px;
+}
+.indexicon2 {
+	display: block;
+	width: 29px;
+	height: 29px;
+	background: url(../../img/shouhuodizhi@2x.png) no-repeat center ;
+	background-size: 29px 29px;
+	float: left;
+	margin-left: 5px;
+}
+.indexicon3 {
+	display: block;
+	width: 29px;
+	height: 29px;
+	background: url(../../img/dingdan@2x.png) no-repeat center ;
+	background-size: 29px 29px;
+	float: left;
+	margin-left: 5px;
+}
+.indexicon4 {
+	display: block;
+	width: 29px;
+	height: 29px;
+	background: url(../../img/guanyu@2x.png) no-repeat center ;
+	background-size: 29px 29px;
+	float: left;
+	margin-left: 5px;
+}
+
+.mint-cell-wrapper .name{
+	margin-left: 10px;
+	font-size: 15px;
+}
+
+.wapper-list .mint-cell{
+	border-bottom: 1px solid #D5D5D5;
+}
+
+.wapper-list .mint-cell:last-child{
+	background-image: none;
+}
+
+

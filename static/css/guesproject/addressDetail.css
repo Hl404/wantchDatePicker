@@ -1,0 +1,103 @@
+.wapper-Content .mint-cell {
+	text-align: left;
+	border-bottom: 1px solid #CCCCCC;
+	
+}
+
+.wapper-Content .mint-cell:last-child  {
+	background-image: none;
+	
+	
+}
+ .wapper-Content .lastcell .mint-cell-wrapper{
+ 	min-height: 80px;
+ }
+.mint-cell-title {
+	position: relative;
+	z-index: 9;
+}
+
+
+ .wapper-Content .lastcell .mint-cell-wrapper .mint-cell-title .name {
+ 	min-width: 50px;
+	font-size: 14px;
+	margin-top: 18px;
+	color: #333333;
+	position: absolute;
+	left: 0;
+	top: -18px;
+ }
+ 
+ .wapper-Content .lastcell .mint-cell-wrapper  .mint-cell-rightCont {
+ 	padding-top: 0;
+ }
+.mint-cell-title .name {
+	min-width: 50px;
+	font-size: 14px;
+	margin-top: 18px;
+	color: #333333;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.mint-cell-rightCont {
+	width: 100%;
+	padding-left: 80px;
+	height: 48px;
+	padding-top: 15px;
+}
+
+.mint-cell-rightCont input {
+	width: 95%;
+	border: none;
+	background: #FFFFFF;
+	font-size: 14px;
+}
+
+.mint-cell-rightCont textarea {
+	width: 95%;
+	border: none;
+	background: #FFFFFF;
+	font-size: 14px;
+}
+
+.mintButton {
+	margin-top: 50px;
+	padding: 0 15px;
+}
+
+.mintButton button {
+	height: 48px;
+	width: 100%;
+	text-align: center;
+	background: #ff9e4e;
+	border-radius: 5px;
+	border: none;
+	color: #FFFFFF;
+}
+
+.address-city {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background: #e4e4e4;
+}
+
+.city-title {
+	border-bottom: 1px solid #D5D5D5;
+	padding: 10px 15px;
+	overflow: hidden;
+}
+
+.city-title .left {
+	float: left;
+}
+
+.city-title .right {
+	float: right;
+}
+
+.mint-cell .mint-cell-wrapper {
+	background-image: none;
+}

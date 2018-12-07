@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.yd-Content h2{
+	font-size: 18px;
+}
+/*底部导航*/
+
+.tab-bar {
+	width: 100%;
+	background: #FFFFFF;
+	display: flex;
+}
+
+.tab-bar li {
+	width: 25%;
+	display: block;
+	padding: 5px 0;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+.tab-bar li i {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: 0 auto 2px;
+}
+
+.tab-bar li span {
+	display: block;
+	font-size: 12px;
+}
+
+.index .ico-index {
+	/*background: url(../../images/home1@2x.png) no-repeat;*/
+	background: url(../../images/leyuan1.png) no-repeat;
+	background-size: 20px 20px;
+	
+}
+
+.order .ico-order {
+	
+	background: url(../../images/wantian1@2x.png) no-repeat;
+	background-size: 20px 20px;
+}
+
+ .maip .ico-maip{
+ 	background: url(../../images/maipin1@2x.png) no-repeat;
+	background-size: 20px 20px;
+ }
+
+ .mine .ico-mine{
+ 	background: url(../../images/huiyuan1@2x.png) no-repeat;
+	background-size: 20px 20px;
+ }
+
+ .tab-bar .router-link-active span{
+ 	color: red;
+ }
+ 
+ .tab-bar .router-link-active    .ico-index {
+	background: url(../../images/leyuan2@2x.png) no-repeat;
+	background-size: 20px 20px;
+	
+}
+
+.tab-bar .router-link-active    .ico-order {
+	background: url(../../images/wantian2@2x.png) no-repeat;
+	background-size: 20px 20px;
+}
+.tab-bar .router-link-active    .ico-maip {
+	background: url(../../images/maipin2@2x.png) no-repeat;
+	background-size: 20px 20px;
+}
+
+.tab-bar .router-link-active    .ico-mine {
+	background: url(../../images/huiyuan2@2x.png) no-repeat;
+	background-size: 20px 20px;
+	
+}

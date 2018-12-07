@@ -1,0 +1,96 @@
+	.marTop{
+		margin-top: 10px;
+	}
+	.wapper-content{
+		
+	}
+	
+	.addressBottom{
+		width: 100%;
+		height: 49px;
+		line-height: 49px;
+		text-align: center;
+		background: #ff9e4e;
+		color: #FFFFFF;
+		position: fixed;
+		bottom: 0;
+	}
+	
+	.address-list{
+		padding-bottom: 60px;
+	}
+	
+	.address-list-item{
+		padding: 10px 15px ;
+		background: #FFFFFF;
+	}
+	
+	.address-nameheader{
+		text-align: left;
+	}
+	
+	.address-nameheader span{
+		font-size: 16px;
+		color: #333;
+	}
+	.address-content {
+		text-align: left;
+		font-size: 12px;
+		color: #999999;
+	}
+	
+	.address-tel{
+		margin-left: 10px;
+	}
+	
+	.address-button{
+		width: 100%;
+		text-align: right;
+		overflow: hidden;
+	}
+	.address-submit {
+		display: block;
+		width: 80px;
+		height: 30px;
+		line-height: 30px;
+		border-radius: 4px;
+		background: #ff9e4e;
+		text-align: center;
+		font-size: 13px;
+		color: #FFFFFF;
+		float: right;
+		margin-left: 15px;
+	}
+	
+	.address-delete{
+		display: block;
+		width: 80px;
+		height: 30px;
+		line-height: 30px;
+		border-radius: 4px;
+		background: #FFFFFF;
+		text-align: center;
+		font-size: 13px;
+		color: #666;
+		float: right;
+		margin-left: 15px;
+		border: 1px solid #999;
+	}
+	
+.addressBottom a{
+	color: #FFFFFF;
+}
+	
+
+.mint-msgbox-baseCont{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background: rgba(0,0,0,.3);
+	z-index: 12;
+}

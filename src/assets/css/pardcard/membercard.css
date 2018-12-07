@@ -1,0 +1,142 @@
+html body
+{
+	margin: 0;
+	padding: 0;
+	position: static;
+}
+.membeCcard-header {
+	padding: 20px 15px;
+	background: #FFFFFF;
+	position: relative;
+	min-height: 115px;
+}
+
+.wxImg {
+	display: block;
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	left: 15px;
+	border-radius: 50%;
+	border: 1px solid #EEEEEE;
+	background: #EEEEEE;
+}
+
+.wxinfo {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+}
+
+.wxinfoRight {
+	margin-left: 85px;
+	padding-top: 2px;
+}
+
+.wxinfoRight p {
+	text-align: left;
+	font-size: 12px;
+	margin-top: 3px;
+	color: #999999;
+}
+
+.wxinfoRight .t1 {
+	color: #ff3657;
+	font-size: 16px;
+}
+
+.wxinfoRight .t2 span,
+.wxinfoRight .t3 span {
+	color: #000000;
+	margin-left: 5px;
+}
+
+.memberCard-middle {
+	margin-top: 10px;
+}
+
+.memberCard-content {
+	background: #FFFFFF;
+}
+
+.memberCard-title {
+	height: 45px;
+	line-height: 45px;
+	font-size: 15px;
+	border-bottom: 1px solid #EEE4D8;
+	text-align: left;
+}
+
+.memberCard-title span {
+	display: block;
+	height: 45px;
+	color: #fffff;
+	width: 80px;
+	text-align: center;
+	margin-left: 15px;
+	border-bottom: 2px solid #ff3657;
+}
+
+.memberCard-menu {
+	margin-top: 10px;
+	height: 30px;
+	background: #FFFFFF;
+}
+
+.memberCard-menu .mint-cell-wrapper .mint-cell-title {
+	min-height: 48px;
+	line-height: 48px;
+	text-align: left;
+	border-bottom: 1px solid #EEEEEE;
+	font-size: 14px;
+	color: #000000;
+}
+
+.memberCard-fl ul {
+	padding: 10px 15px;
+}
+
+.memberCard-fl ul li{
+	margin-top: 10px;
+	height: 80px;
+	text-align: center;
+	border-radius: 10px;
+	background-size: 100% 80px;
+	color: #FFFFFF;
+	padding-top: 18px;
+	position: relative;
+}
+.memberCard-fl ul li:first-child{
+	margin: 0;
+}
+.memberCard-fl ul li .cardName,
+.memberCard-fl ul li .cardNumber{
+	font-size: 15px;
+	
+}
+
+.memberCard-fl ul li .guoqi{
+	display: block;
+	width: 55px;
+	height: 55px;
+	position: absolute;
+	right: 15px;
+	top: 14px;
+}
+
+
+.memberCard-fl ul .active1{
+	background:url(../../images/cika@2x.png) no-repeat;
+}
+.memberCard-fl ul .active2{
+	background: url(../../images/yueka@2x.png) no-repeat;
+}
+
+.memberCard-fl ul .active3{
+	background: url(../../images/jika@2x.png) no-repeat;
+}
+
+.memberCard-fl ul .active4{
+	background: url(../../images/nianka@2x.png) no-repeat;
+}
+

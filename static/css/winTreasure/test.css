@@ -1,0 +1,803 @@
+.awardRotate {
+	margin: 0px auto;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 100;
+	background: url(../../../static/img/duobao.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+	padding-top: 20px;
+}
+
+.awardContent {
+	overflow: hidden;
+	padding: 0 15px;
+}
+
+.awardMoney {
+	position: relative;
+	font-size: 18px;
+	font-weight: bold;
+	width: 40%;
+	background: url(../../img/jifen@2xhuan.png) no-repeat left center;
+	background-size: 25px;
+	height: 37px;
+	line-height: 37px;
+	padding-left: 40px;
+	text-align: left;
+	color: #f4ff46;
+	float: left;
+	margin-top: 5px;
+}
+
+.awardBtn {
+	display: block;
+	width: 70px;
+	height: 38px;
+	float: right;
+	text-align: center;
+	font-size: 15px;
+	color: #f65ca9;
+	background: #ffedf6;
+	line-height: 38px;
+	border-radius: 5px;
+	z-index: 10;
+	position: relative;
+	box-shadow: 0 5px 2px #f65ca9;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+select,
+input,
+img,
+select {
+	vertical-align: middle;
+}
+
+input {
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #c00;
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/* 大转盘样式 */
+
+.banner {
+	display: block;
+	width: 100%;
+	margin: 50px auto;
+	padding: 0 30px;
+	position: relative;
+	z-index: 5;
+}
+
+.banner .turnplate {
+	display: block;
+	width: 100%;
+	position: relative;
+	background: url(../../../static/img/yuan@2x.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.banner .turnplate canvas.item {
+	width: 99%;
+	position: relative;
+    left: 0.5px;
+    top: 3px;
+}
+
+.banner .turnplate .pointer {
+	display: block;
+	position: absolute;
+	width: 31.5%;
+	height: 42.5%;
+	left: 34.2%;
+	top: 22.8%;
+	z-index: 99;
+	-webkit-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	
+	/*background: url(../../img/jiantou@2x.png) no-repeat center;
+	background-size: 100%;*/
+}
+
+.banner .turnplate .pointer img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 120;
+}
+
+.boxShaw {
+	width: 150px;
+    height: 150px;
+    transform-style: preserve-3d;
+    transform: rotate3d(1, 0, 0, 80deg);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -22%;
+    left: 50%;
+    margin-left: -75px;
+     box-shadow: 0px 177px 150px #474f54;
+}
+
+
+.awardButton{
+	overflow: hidden;
+	padding:0 30px;
+	color: #ff0080;
+	font-size: 18px;
+}
+
+
+.awardbtmLeft{
+	width: 45%;
+	height: 55px;
+	background: url(../../img/dbbottom@2x.png) no-repeat;
+	background-size:100% 55px;
+	line-height: 55px;
+	text-align: center;
+	float: left;
+}
+
+.awardbtmRight{
+	width: 45%;
+	height: 55px;
+	background: url(../../img/dbbottom@2x.png) no-repeat;
+	background-size:100% 55px ;
+	line-height: 55px;
+	text-align: center;
+	float: right;
+	
+	
+}
+
+.dbContent-relateive .conbtent{
+	margin: 30px 0;
+	color: #ac4101;
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+
+.awardDb{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.5);
+	left: 0;
+	top: 0;
+	z-index: 99;
+}
+
+
+.dbContent{
+	padding:25px 30px ;
+	background: radial-gradient( circle, #ffdf03 , #fe8f33);
+	background: -webkit-radial-gradient( circle, #ffdf03 , #fe8f33);
+	position: fixed;
+	top: 20%;
+	left: 20px;
+	right: 20px;
+	border-radius: 10px;
+	color: #FFFFFF;
+}
+
+
+
+.dbContent-relateive{
+	position: relative;
+}
+
+
+
+.dbContent-relateive .titledb{
+	text-align: center;
+	color: #ac4101;
+	font-weight: 500;
+}
+
+.dbBtn{
+	margin-top:10px ;
+	overflow: hidden;
+}
+
+.dbBtnleft{
+	width: 60%;
+	height: 35px;
+	background: url(../../img/goumai@2x.png) no-repeat;
+	background-size:100% 35px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	border: none;
+	font-size: 15px;
+	color: #ff0080;
+}
+
+
+.dbBtnright{
+	width: 25%;
+	height: 35px;
+	background: url(../../img/goumai2@2x.png) no-repeat;
+	background-size:100% 35px;
+	line-height: 35px;
+	text-align: center;
+	float: right;
+	border: none;
+	font-size: 15px;
+	color: #ac4101;
+}
+
+.awardMaskGz{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.5);
+	left: 0;
+	top: 0;
+	z-index: 99;
+
+}
+
+
+.awardGz{
+	height: 340px;
+	padding:25px 30px ;
+	background: radial-gradient( circle, #c7b2fc , #8f6de4);
+	background: -webkit-radial-gradient(circle, #c7b2fc , #8f6de4);
+	position: fixed;
+	top: 20%;
+	left: 30px;
+	right: 30px;
+	bottom: 30px;
+	bottom: 20%;
+	border-radius: 10px;
+	color: #FFFFFF;
+}
+
+
+.awardGzTie{
+	font-size: 19px;
+	text-align: center;
+}
+
+.awardText{
+	font-size: 15px;
+	text-align: left;
+	margin-top: 5px;
+}
+
+.awardGz-relative{
+	position: relative;
+}
+.awardGz-content{
+	
+	overflow: scroll;
+	height: 280px;
+}
+
+
+.gzClose{
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../../img/closebb@2x.png) no-repeat;
+	background-size: 45px;
+	position: absolute;
+	right: -40px;
+	top: -40px;
+}
+
+
+.knapMask{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.5);
+	left: 0;
+	top: 0;
+	z-index: 200;
+}
+
+
+
+.knapContent{
+	padding:  20px 10px;
+	position: fixed;
+	left: 20px;
+	right: 20px;
+	top: 10%;
+	bottom: 10%;
+	height: 460px;
+	background: radial-gradient( top, #3397e4 , #89caf8);
+	background: -webkit-radial-gradient(top, #3397e4 , #89caf8);
+	border-radius: 10px;
+}
+
+
+.knap-relateive{
+	position: relative;
+}
+
+.knapTitle{
+	height: 35px;
+	background:url(../../img/dbnotice@2x.png) no-repeat;
+	background-size: 22px;
+	padding-top: 5px;
+}
+
+.knapTitle img{
+	display: block;
+	width: 90px;
+	height: 32px;
+	margin:-10px auto;
+	
+	
+}
+.knapBase {
+	overflow: scroll;
+	height: 370px;
+}
+
+.knapBase ul li .licur{
+	background: #ffbb04;
+	border-radius: 10px;
+	padding: 6px;
+	margin-top: 10px;
+}
+.knapBase ul li .licur2{
+	background: #CCCCCC;
+	border-radius: 10px;
+	padding: 6px;
+	margin-top: 10px;
+}
+.knapBase ul li .licur .knapBaseBg{
+	background: #ffc938;
+	border-radius: 10px;
+	padding: 10px 6px;
+	position: relative;
+}
+
+
+.knapBase ul li .licur2 .knapBaseBg2{
+	background: #CCCCCC;
+	border-radius: 10px;
+	padding: 10px 6px;
+	position: relative;
+}
+
+.knapImg{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #FFFFFF;
+	position: absolute;
+	left: 6px;
+	top:10px;
+}
+.knapImg img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	
+}
+.knapDblsit{
+	min-height: 50px;
+	padding-left: 60px;
+}
+
+.knapDblsit p{
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.knapDblsit .dbtitle{
+	font-size: 15px;
+}
+
+.knapDblsit .dbRecord{
+font-size: 12px;
+	
+}
+
+.dbRicon{
+	display: block;
+	width: 18px;
+	height: 25px;
+	background: url(../../img/dbdemo@2x.png) no-repeat;
+	background-size: 18px 25px;
+	position: absolute;
+	right: 7px;
+	top: 20px;
+}
+
+.dbcorlor{
+	color: #e21111;
+}
+
+
+.knapClose{
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../../img/close2GZ@2x.png) no-repeat;
+	background-size: 45px;
+	position: absolute;
+	right: -25px;
+	top: -40px;
+}
+
+
+
+.writeMask{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.5);
+	left: 0;
+	top: 0;
+	z-index: 210;
+}
+
+
+.write-Content{
+	position: fixed;
+	background: #ffbb04;
+	right: 20px;
+	left: 20px;
+	top: 20%;
+	z-index: 120;
+	padding: 25px;
+	border-radius: 10px;
+}
+
+
+.write-relative{
+	position: relative;
+}
+
+.write-relative .knapBaseBg{
+	background: #ffbb04;
+	padding: 0;
+}
+
+.write-relative .knapBaseBg  .knapImg{
+	top: 7px;
+}
+.write-relative .knapBaseBg2  .knapImg{
+	top: 7px;
+}
+
+
+.write-relative .knapClose{
+	right: -40px;
+}
+
+
+/*兑换说明*/
+
+.explainMask{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.5);
+	left: 0;
+	top: 0;
+	z-index: 210;
+}
+
+
+.explain-Content{
+	height: 330px;
+	position: fixed;
+	background: #ffbb04;
+	right: 20px;
+	left: 20px;
+	top: 20%;
+	z-index: 120;
+	padding: 25px;
+	border-radius: 10px;
+	bottom: 30%;
+}
+
+
+.explain-relative{
+	position: relative;
+}
+
+.explain-relative .knapBaseBg{
+	background: #ffbb04;
+	padding: 0;
+	height: 250px;
+	overflow: scroll;
+}
+
+.explain-relative .knapBaseBg  .knapImg{
+	top: 7px;
+}
+
+
+.explain-relative .knapClose{
+	right: -40px;
+}
+.loginMask{
+	width: 100%;
+	height: 100%;
+	z-index: 50;
+
+}
+
+.login-Content{
+	z-index: 120;
+}
+.login-relative{
+	position: relative;
+	background: #FFFFFF;
+}
+.login-relative .knapClose{
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../../img/close2GZ@2x.png) no-repeat;
+	background-size: 45px;
+	position: absolute;
+	right: -40px;
+    top: -45px;
+}
+
+.loginMask-btn{
+	padding: 0 20px;
+}
+
+.login-relative .mint-cell:first-child .mint-cell-wrapper{
+	border-bottom: 1px solid #D5D5D5;
+}
+
+
+
+/*积分不足*/
+.goldcoinMask{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background: rgba(0,0,0,.6);
+	z-index: 230;
+}
+
+
+.goldcoinCont{
+	width: 300px;
+	height: 200px;
+	background: url(../../img/bg-chongzhi@2x.png) no-repeat;
+	background-size: 300px 200px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: 40% auto;
+	
+}
+
+.goldcoinCont-relative{
+	position: relative;
+	z-index: 30;
+	padding-top: 75px;
+	height: 100%;
+}
+.goldcoinCont-relative .titleJ{
+	font-size: 18px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+
+.goldcoinBtn{
+	display: block;
+	margin-top: 10px;
+	width: 180px;
+	height: 50px;
+	border-radius: 90px;
+	background: #ffdf31;
+	line-height: 50px;
+	text-align: center;
+	margin:15px auto  ;
+	
+}
+
+
+.closeGj{
+	width: 30px;
+	height: 30px;
+	background: url(../../img/close@2xGj.png) no-repeat;
+	background-size: 30px;
+	position: absolute;
+	bottom: -70px;
+	left: 50%;
+	margin-left: -15px;
+}
+
+
+/*手机号码检测*/
+
+.register-box{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background: rgba(0,0,0,.5);
+	z-index: 99;
+	
+}
+
+
+.register-content{
+	position: fixed;
+	left: 0;
+	right: 0;
+	
+	margin: 30% auto;
+	width: 300px;
+	height: 280px;
+	background: #d4504b;
+	border-radius: 5px;
+	padding: 15px  30px;
+	
+}
+
+
+
+.register-relative{
+	position: relative;
+	z-index: 120;
+}
+
+.registClose{
+	display: block;
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF url(../../img/close@2xGj.png) no-repeat;
+    background-size: 30px;
+    position: absolute;
+    right: -40px;
+    top: -30px;
+    border-radius: 50%;
+}
+.register-content-header {
+	padding: 10px 15px;
+	font-size: 19px;
+	color: #FFFFFF;
+}
+
+.register-from-item .mint-cell-wrapper {
+	background-image: none;
+}
+
+
+.register-from-item .mint-cell-wrapper  .mint-cell-text{
+	color: #333;
+}
+
+.register-from-item .mint-cell-wrapper  .mint-cell-text img{
+	width: 25px;
+	height: 25px;
+}
+
+.register-from a {
+	text-decoration: none;
+	border-radius: 5px;
+}
+.register-from .regYzm{
+	width: 50%;
+}
+
+.register-from .mint-cell-wrapper {
+	padding-left: 15px;
+	font-size: 15px;
+}
+
+.register-from .mint-cell-wrapper .mint-cell-title {
+	width: 55px;
+	text-align: left;
+	padding-left: 15px;
+}
+
+.register-from .mint-cell-wrapper .mint-cell-value {
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.register-from .mint-cell-wrapper .mint-cell-value .mint-field-core {
+	background: #FFFFFF;
+	color: #999;
+	font-size: 15px;
+}
+
+.register-buttonCont {
+	width: 100%;
+	margin-top: 30px;
+	
+}
+
+.borderTop {
+	border-top: 1px solid #CCCCCC;
+}
+
+.register-buttonCont .mint-button--normal {
+	width: 100%;
+	background: #fbe41b;
+	color: #892825;
+	height: 48px;
+}
+
+.register-from-item {
+	position: relative;
+}
+
+.register-from-item .yzm {
+	display: block;
+    width: 110px;
+    height: 48px;
+    line-height: 48px;
+    border: none;
+    background: #fbe41b;
+    color: #000;
+    border-radius: 3px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 16px;
+}
+
+
+.register-from-item .regYzm  .mint-cell-wrapper{
+	position: relative;
+}
+.register-from-item .regYzm  .mint-cell-wrapper .mint-field-core{
+	width: 120px;
+}
+.register-from-item .regYzm  .mint-cell-wrapper .mint-field-clear{
+	position: absolute;
+	right: 10px;
+}
+.register-buttonCont .status {
+	text-align: left;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.register-buttonCont .status span {
+	color: #f19e38;
+}

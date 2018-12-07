@@ -1,0 +1,183 @@
+
+.wapper-ContentPS{
+	padding-top: 10px;
+}
+
+	.wapper-header2 {
+		min-height: 60px;
+		background: #FFFFFF;
+		margin: 0px 15px;
+		padding: 8px 10px;
+		position: relative;
+		z-index: 9;
+		overflow: hidden;
+		border-radius: 5px;
+	}
+	
+	.wapper-header-img {
+		display: block;
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+		
+		position: absolute;
+		left: 10px;
+		top: 8px;
+	}
+	
+	.wapper-header-img img{
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+		}
+	
+	.wapper-header-right2 {
+		width: 100%;
+		padding-left: 60px;
+		margin-top: 15px;
+	}
+	
+	.wapper-header-right2 .left {
+		width: 50%;
+		height: 20px;
+		float: left;
+		background: url(../../../../static/img/jinbi@2x.png) no-repeat;
+		background-size: 20px;
+		padding-left: 25px;
+		color: #d73f3f;
+		text-align: left;
+		font-size: 15px;
+	}
+	
+	.wapper-header-right2 .right {
+		width: 50%;
+		float: left;
+		margin-top: -5px;
+	}
+	
+	.wapper-header-right2 .right .span {
+		padding: 5px 10px;
+		background: #FFFFFF;
+		font-size: 14px;
+		border-radius: 3px;
+		border: 1px solid #333;
+	}
+	
+	.wapper-header2 .wapper-header-right2 .right .recharge {
+		background: #d73f3f;
+		color: #FFFFFF;
+		border: 1px solid #d73f3f;
+		border-radius: 3px;
+		margin-right: 3px;
+	}
+	
+	/*.wapper-center {
+		padding: 0 15px;
+		margin-top: 10px;
+	}
+	*/
+		.wapper-center3 {
+		padding: 0 15px;
+		
+	}
+	
+	/*.wapper-center .row .col-50 {
+		border-radius: 8px;
+		height: 100%;
+		font-family: "微软雅黑";
+	}
+	*/
+	.wapper-center3 .row .col-50 {
+		font-family: "微软雅黑";
+		float: left;
+		margin-top: 10px;
+		position: relative;
+		z-index: 100;
+		background-repeat: no-repeat;
+		border-radius: 8px;
+		/*background: red;*/
+	}
+	
+	.wapper-center3 .row .col-50 .colImg-relative{
+	
+		width: 100%;
+		
+	}
+	.colImg-relative .iosImg{
+		width: 100%;
+		font-size: 24px;
+		color: red;
+		position: absolute;
+		z-index: 100;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		margin: auto;
+		
+	}
+	
+		.wapper-center3 .row .col-50  .remake{
+			display: block;
+			width: 100%;
+			position: relative;
+			z-index: 200;
+			padding-top: 20%;
+		}
+	.wapper-center3 .row .col-50 .head {
+		width: 100%;
+		font-size: 24px;
+		color: #FFFFFF;
+		position: relative;
+		z-index: 100;
+	}
+	
+/*	.wapper-center .row .compet1 {
+		background: #f76868;
+	}
+	
+	.wapper-center .row .compet2 {
+		background: #08df7c;
+	}
+	
+	.wapper-center .row .compet3 {
+		background: #c6d51a;
+	}
+	
+	.wapper-center .row .compet4 {
+		background: #69c6ed;
+	}*/
+	
+	.wapper-center3 .row .headImg1 {
+		margin: 10% auto;
+		width: 86px;
+		height: 118px;
+		background-size: 86px 118px;
+		position: relative;
+		z-index: 203;
+	}
+	
+	/*.wapper-center3 .row .headImg2 {
+		margin: 10% auto;
+		width: 86px;
+		height: 118px;
+		background: url(/static/img/cai2@2x.png) no-repeat;
+		background-size: 86px 118px;
+	}
+	
+	.wapper-center3 .row .headImg3 {
+		margin: 10% auto;
+		width: 86px;
+		height: 118px;
+		background: url(/static/img/cai3@2x.png) no-repeat;
+		background-size: 86px 118px;
+	}
+	
+	.wapper-center3 .row .headImg4 {
+		margin: 10% auto;
+		width: 86px;
+		height: 118px;
+		background: url(/static/img/cai4@2x.png) no-repeat;
+		background-size: 86px 118px;
+	}*/
+	

@@ -1,0 +1,777 @@
+html  body{
+	position: static !important;
+}
+
+
+
+.awardRotate {
+	margin: 0px auto;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 100% 100%;
+	background: #4aceff;
+	
+}
+
+.awardContent {
+	overflow: hidden;
+	padding: 0 15px;
+}
+
+.awardMoney {
+	position: relative;
+	font-size: 18px;
+	font-weight: bold;
+	width: 40%;
+	background: url(../../img/dbmoney@2x.png) no-repeat left center;
+	background-size: 36px;
+	height: 37px;
+	line-height: 37px;
+	padding-left: 40px;
+	text-align: left;
+	color: #f4ff46;
+	float: left;
+	margin-top: 5px;
+}
+
+.awardBtn {
+	display: block;
+	width: 70px;
+	height: 38px;
+	float: right;
+	text-align: center;
+	font-size: 15px;
+	color: #f65ca9;
+	background: #ffedf6;
+	line-height: 38px;
+	border-radius: 5px;
+	z-index: 10;
+	position: relative;
+	box-shadow: 0 5px 2px #f65ca9;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+select,
+input,
+img,
+select {
+	vertical-align: middle;
+}
+
+input {
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #c00;
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/* 大转盘样式 */
+
+.banner {
+	display: block;
+	width: 100%;
+	margin: 50px auto;
+	padding: 0 30px;
+	position: relative;
+}
+
+.banner .turnplate {
+	display: block;
+	width: 100%;
+	position: relative;
+	background: url(../../../static/img/yuan@2x.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.banner .turnplate canvas.item {
+	width: 99%;
+	position: relative;
+    left: 0.5px;
+    top: 3px;
+}
+
+.banner .turnplate .pointer {
+	display: block;
+	position: absolute;
+	width: 31.5%;
+	height: 42.5%;
+	left: 34.2%;
+	top: 22.8%;
+	z-index: 99;
+	background: url(../../img/jiantou@2x.png) no-repeat center;
+	background-size: 100%;
+}
+
+.banner .turnplate .pointer img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 120;
+}
+
+.boxShaw {
+	width: 150px;
+    height: 150px;
+    transform-style: preserve-3d;
+    transform: rotate3d(1, 0, 0, 80deg);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -22%;
+    left: 50%;
+    margin-left: -75px;
+     box-shadow: 0px 177px 150px #474f54;
+}
+
+
+.awardButton{
+	overflow: hidden;
+	padding:0 30px;
+	color: #ff0080;
+	font-size: 18px;
+}
+
+.awardbtmRight{
+	width: 45%;
+	height: 55px;
+	background: url(../../img/dbbottom@2x.png) no-repeat;
+	background-size:100% 55px ;
+	line-height: 55px;
+	text-align: center;
+	float: right;
+	
+	
+}
+
+.dbContent-relateive .conbtent{
+	margin: 30px 0;
+	color: #ac4101;
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+
+.awardDb{
+	width: 100%;
+	height: 100%;
+	
+	background: rgba(0,0,0,.5);
+	left: 0;
+	top: 0;
+	z-index: 99;
+}
+
+
+.dbContent{
+	padding:25px 30px ;
+	background: radial-gradient( circle, #ffdf03 , #fe8f33);
+	background: -webkit-radial-gradient( circle, #ffdf03 , #fe8f33);
+	
+	top: 20%;
+	left: 20px;
+	right: 20px;
+	border-radius: 10px;
+	color: #FFFFFF;
+}
+
+
+
+.dbContent-relateive{
+	position: relative;
+}
+
+
+
+.dbContent-relateive .titledb{
+	text-align: center;
+	color: #ac4101;
+	font-weight: 500;
+}
+
+.dbBtn{
+	margin-top:10px ;
+	overflow: hidden;
+}
+
+.dbBtnleft{
+	width: 60%;
+	height: 35px;
+	background: url(../../img/goumai@2x.png) no-repeat;
+	background-size:100% 35px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	border: none;
+	font-size: 15px;
+	color: #ff0080;
+}
+
+
+.dbBtnright{
+	width: 25%;
+	height: 35px;
+	background: url(../../img/goumai2@2x.png) no-repeat;
+	background-size:100% 35px;
+	line-height: 35px;
+	text-align: center;
+	float: right;
+	border: none;
+	font-size: 15px;
+	color: #ac4101;
+}
+
+.awardMaskGz{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.5);
+	left: 0;
+	top: 0;
+	z-index: 99;
+
+}
+
+
+.awardGz{
+	height: 340px;
+	padding:25px 30px ;
+	background: radial-gradient( circle, #c7b2fc , #8f6de4);
+	background: -webkit-radial-gradient(circle, #c7b2fc , #8f6de4);
+	position: fixed;
+	top: 20%;
+	left: 30px;
+	right: 30px;
+	bottom: 30px;
+	bottom: 20%;
+	border-radius: 10px;
+	color: #FFFFFF;
+}
+
+
+.awardGzTie{
+	font-size: 19px;
+	text-align: center;
+}
+
+.awardText{
+	font-size: 15px;
+	text-align: left;
+	margin-top: 5px;
+}
+
+.awardGz-relative{
+	position: relative;
+}
+.awardGz-content{
+	
+	overflow: scroll;
+	height: 280px;
+}
+
+
+.gzClose{
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../../img/closebb@2x.png) no-repeat;
+	background-size: 45px;
+	position: absolute;
+	right: -40px;
+	top: -40px;
+}
+
+
+
+
+
+.knapContent{
+	width: 100%;
+	
+	padding-bottom:20px ;
+	
+	
+	background: #4aceff;
+	
+	
+	z-index: 210;
+}
+
+
+.knap-relateive{
+	position: relative;
+}
+
+.knapTitle{
+	height: 35px;
+	background:url(../../img/dbnotice@2x.png) no-repeat;
+	background-size: 22px;
+	padding-top: 5px;
+}
+
+.knapTitle img{
+	display: block;
+	width: 90px;
+	height: 32px;
+	margin:-10px auto;
+	
+	
+}
+.knapBase {
+	overflow: scroll;
+	
+}
+
+.knapBase ul li .licur{
+	
+	border-radius: 10px;
+	margin-top: 10px;
+}
+.knapBase ul li .licur2{
+	background: #CCCCCC;
+	border-radius: 10px;
+	
+	margin-top: 10px;
+}
+.knapBase ul li .licur .knapBaseBg{
+	background: #ffedbc;
+	border-radius: 10px;
+	padding: 10px 6px;
+	position: relative;
+}
+
+
+.knapBase ul li .licur2 .knapBaseBg2{
+	background: #CCCCCC;
+	border-radius: 10px;
+	padding: 10px 6px;
+	position: relative;
+}
+
+.knapImg{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #FFFFFF;
+	position: absolute;
+	left: 6px;
+	top:10px;
+}
+.knapImg img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	
+}
+.knapDblsit{
+	min-height: 50px;
+	padding-left: 60px;
+}
+
+.knapDblsit p{
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.knapDblsit .dbtitle{
+	font-size: 15px;
+	color: #666666;
+}
+
+.knapDblsit .dbRecord{
+font-size: 12px;
+color: #999999;
+	
+}
+
+.dbRicon{
+	display: block;
+	width: 18px;
+	height: 25px;
+	background: url(../../img/dbdemo@2x.png) no-repeat;
+	background-size: 18px 25px;
+	position: absolute;
+	right: 7px;
+	top: 20px;
+}
+
+.dbcorlor{
+	color: #e21111;
+}
+
+
+.knapClose{
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../../img/close2GZ@2x.png) no-repeat;
+	background-size: 45px;
+	position: absolute;
+	right: -25px;
+	top: -30px;
+}
+
+
+
+.writeMask{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.5);
+	left: 0;
+	top: 0;
+	z-index: 210;
+}
+
+
+.write-Content{
+	position: fixed;
+	background: #ffbb04;
+	right: 20px;
+	left: 20px;
+	top: 20%;
+	z-index: 120;
+	padding: 10px 25px;
+	border-radius: 10px;
+}
+
+.write-Content2{
+	position: fixed;
+	background: #ffbb04;
+	right: 20px;
+	left: 20px;
+	top: 40px;
+	bottom: 40px;
+	z-index: 120;
+	
+	border-radius: 10px;
+}
+
+.knapDblsit2 p{
+	margin-bottom: 5px;
+}
+
+.write-relative{
+	position: relative;
+}
+
+.write-relative .knapBaseBg{
+	background: #ffbb04;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+
+.knapBaseBg .knapDblsit2 .dbRecord{
+text-align: center;
+	font-size: 14px;
+	
+}
+.knapBaseBg .knapDblsit2 .adress{
+	width: 260px;
+	margin: auto;
+	margin-top: 6px;
+}
+.knapBaseBg .knapDblsit2 .adress p{
+	text-align: center;
+	
+}
+.write-relative .knapBaseBg  .knapImg{
+	top: 7px;
+}
+.write-relative .knapBaseBg2  .knapImg{
+	top: 7px;
+}
+
+
+.write-relative .knapClose{
+	right: -40px;
+}
+
+
+/*兑换说明*/
+
+.explainMask{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.5);
+	left: 0;
+	top: 0;
+	z-index: 210;
+}
+
+
+.explain-Content{
+	height: 330px;
+	position: fixed;
+	background: #ffbb04;
+	right: 20px;
+	left: 20px;
+	top: 20%;
+	z-index: 120;
+	padding: 25px;
+	border-radius: 10px;
+	bottom: 30%;
+}
+
+
+.explain-relative{
+	position: relative;
+}
+
+.explain-relative .knapBaseBg{
+	background: #ffbb04;
+	padding: 0;
+	height: 250px;
+	overflow: scroll;
+}
+
+.explain-relative .knapBaseBg  .knapImg{
+	top: 7px;
+}
+
+
+.explain-relative .knapClose{
+	right: -40px;
+}
+.loginMask{
+	width: 100%;
+	height: 100%;
+	z-index: 50;
+
+}
+
+.login-Content{
+	z-index: 120;
+}
+.login-relative{
+	position: relative;
+	background: #FFFFFF;
+}
+.login-relative .knapClose{
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url(../../img/close2GZ@2x.png) no-repeat;
+	background-size: 45px;
+	position: absolute;
+	right: -40px;
+    top: -45px;
+}
+
+.loginMask-btn{
+	padding: 0 20px;
+}
+
+.login-relative .mint-cell:first-child .mint-cell-wrapper{
+	border-bottom: 1px solid #D5D5D5;
+}
+
+.knapBase .h1{
+	padding: 15px 0;
+	font-size: 18px;
+	text-align: center;	
+	
+	color: #FFFFFF;	
+	
+	
+}
+
+.knapBase .padding{
+	padding: 0 15px;
+}
+
+
+.write-relative .knapDblsit2  .dbtitle,
+.write-relative .knapDblsit2   .dbRecord{
+	color: #FFFFFF;
+}
+
+ .knapDblsit2  p{
+	color: #000000;
+	font-size: 12px;
+}
+
+.write-Content2 .write-relative {
+	height: 100%;
+}
+
+.write-Content2  .write-relative .knapClose{
+	right: -15px;
+    top: -15px;
+    z-index: 10;
+}
+.write-Content2 .write-relative .knapBaseBg {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 30px;
+	left: 0;
+	margin: auto;
+	overflow-y: scroll;
+	padding: 5px 25px;
+	border-radius: 10px;
+}
+
+
+.shopDetail{
+	border-bottom: 1px solid #ffd565;
+	border-top: 1px solid #ffd565;
+	padding: 10px 0;
+	margin-top: 10px;
+}
+
+.shopDetail h1{
+	font-size: 14px;
+	text-align: left;
+}
+.shopDetail  .shopDetail-ul{
+	margin-top: -10px;
+}
+.shopDetail  .shopDetail-ul  li{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding: 10px 0;
+	min-height: 72px;
+	margin-top: 10px;
+}
+
+
+.shopDetail .shopDetail-ul  li .img{
+	display: block;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 0px;
+	top: 10px;
+}
+.shopDetail-ul li .img img{
+	width: 60px;
+	height: 60px;
+}
+
+
+.shopDetail-content{
+	margin-left: 70px;
+	overflow: hidden;
+}
+
+
+.shopDetail-left{
+	width: 65%;
+	float: left;
+	
+}
+
+.shopDetail-left .name{
+	display: -webkit-box;
+    height: 34px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #232326;
+    
+}
+
+.shopDetail-right{
+	width:30%;
+	float: right;
+}
+.shopDetail-right p{
+	text-align: right;
+}
+.shopDetail-right .subNum{
+	font-size: 14px;
+	
+}
+
+.shopDetail-right .num{
+	font-size: 12px;
+}
+
+
+.shopDetail-fl{
+	padding: 10px 0;
+	font-size: 13px;
+	text-align: left;
+	border-bottom: 0.5px solid #ffd565;
+}
+
+
+
+
+.shopDetail-ft{
+	text-align: right;
+	font-size: 15px;
+	padding-top: 10px;
+}
+
+.shopTitle{
+	padding: 10px 0;
+	border-bottom: 1px solid #ffd565;
+	color: #0678A2;
+	font-size: 18px;
+}
+
+
+.knapBaseBg-prisc{
+	position: relative;
+	margin-top: 10px;
+}
+
+.knapBaseBg-prisc .knapDblsit{
+	padding: 0;
+}
+.knapBaseBg-prisc .knapDblsit .dbRecord{
+	color: #FFFFFF;
+}
+.knapBaseBg-prisc .knapDblsit p{
+	text-align: center;
+	font-size: 12px;
+	color: #000000;
+	margin-top: 5px;
+}
+
+.knapBaseBg-prisc .knapDblsit .address
+ {
+ 	width: 260px;
+ 	margin: auto;
+ }
+.knapBaseBg  .knapBaseBg-prisc .knapDblsit .address p{
+	font-size: 12px;
+	color: #000000;
+}
+.write-Content2 .write-relative  .knapBaseBg-prisc .knapImg{
+	left: 0px;
+	top: 0px;
+}
+
+
+#jscodeCanvas2{
+	width: 100%;	
+}
